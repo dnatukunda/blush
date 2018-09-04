@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>BlushMedia App</title>
+	<meta name="description" content="BlushMedia App">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+ <style type="text/css">
+ body{
+ 	padding:60px;
+    background: black;
+ }
+ #img{
+    height: 200px;
+    width: 400px;
+ }
+
+ </style>
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+	<!-- navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class = "navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">	
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="" class="navbar-brand">BlushMedia</a>
+			</div>	
+			<div class= "collapse navbar-collapse" id="navbar-collapse"> 
+				<ul class="nav navbar-nav">
+					<li><a href="#feedback">Feedback</a>
+					<li><a href="#gallery">Gallery</a>
+					<li><a href="#faq">Faq</a>
+					<li><a href="#contact">Contact</a>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+    <!-- jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+             <h1>Welcome to BlushMedia App!</h1>
+             <p>Lorem ipsum dolizzle sit amizzle, consectetizzle adipiscing check it out. Nullizzle sapizzle velizzle.</p>
+             
+        </div>
+    </div>
+<!-- feedback -->
+    <div class="container">
+    	<section>
+    		<div class="page-header" id="feedback">
+    			<h2>Feedback.<small>Check out the feedback</small></h2>
+    		</div>
+    		<div class="row">
+    			<div class="col-lg-4">
+    				<blockquote>
+    					<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    					<footer>Akeem John</footer>
+    				</blockquote>
+    			</div>
+    			<div class="row">
+    			<div class="col-lg-4">
+    				<blockquote>
+    					<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    					<footer>Panya Cathy</footer>
+    				</blockquote>
+    			</div>
+    			<div class="row">
+    			<div class="col-lg-4">
+    				<blockquote>
+    					<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    					<footer>Cindy Annie</footer>
+    				</blockquote>
+    			</div>
+    		</div>
+    	</section>
+    </div>
+<!-- call to action -->
+<section>
+	<div class="well">
+		<div class="container text-center">
+			<h3>Subscribe to view my work</h3>
+			<p>Enter your name and email</p>
+
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Subscribe</label>
+					<input type="text" class="form-control" id="subscription" placeholder="your name">	
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" class="form-control" id="email" placeholder="enter your email">	
+				</div>
+				<button type="submit" class="btn btn-default">Subscribe</button>
+				<hr>
+			</form>
+		</div>
+	</div>
+</section>
+
+<!-- Gallery -->
+<div class="container">
+	<section>
+		<div class="page-header" id="gallery">
+    			<h2>Gallery.<small>Check out the Gallery</small></h2>
+    		</div>
+    		<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+    			<ol class="carousel-indicators">
+    				<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+    				<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+    				<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+    				<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+    				
+    			</ol>
+    			<div class="carousel-inner">
+    				<div class="item active">
+    					<img src="http://www.sautitech.com/wp-content/uploads/2018/05/blush-media-portfolio-glamour-14.jpg" alt="Text of image">
+    					<!-- <div class="carousel-caption">
+    						<h3>Bold Africa</h3>
+    						<p>One of our black and beautiful</p>
+    					</div> -->
+    				</div>
+    				<div class="item ">
+    					<img src="http://www.sautitech.com/wp-content/uploads/2018/05/blush-media-portfolio-glamour-14.jpg" >
+    				</div>
+    				<div class="item ">
+    					<img  src="http://www.sautitech.com/wp-content/uploads/2018/05/blush-media-portfolio-glamour-14.jpg" >
+    				</div>
+    				<div class="item">
+    					<img  src="http://www.sautitech.com/wp-content/uploads/2018/05/blush-media-portfolio-glamour-14.jpg">
+    				</div>
+    			</div>
+    		</div>
+    		</div>
+	</section>	
+</div>
+
+<!-- Faq-->
+<div class="container">
+	<section>
+		<div class="page-header" id="faq">
+    			<h2>FAQ.<small>Q&A</small></h2>
+    		</div>
+    		<div class="panel-group" id="accordion">
+    			<div class="panel panel-default">
+    				<div class="panel-heading">
+    					<div class="panel-title">
+    						<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">Qn 1</a>
+    					</div>
+    					<div id="collapse-1" class="panel-collapse collapse in">
+    						<div class="panel-body">
+    							Laboris nisi ut aliquip ex ea commodo consequat. Corrupti quos dolores et quas molestias excepturi sint occaecati. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">Qn 2</a>
+                        </div>
+                        <div id="collapse-2" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Laboris nisi ut aliquip ex ea commodo consequat. Corrupti quos dolores et quas molestias excepturi sint occaecati. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">Qn 3</a>
+                        </div>
+                        <div id="collapse-3" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Laboris nisi ut aliquip ex ea commodo consequat. Corrupti quos dolores et quas molestias excepturi sint occaecati. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    		</div>
+	</section>
+</div>
+<!-- contact -->
+<div class="container">
+	<section>
+		<div class="page-header" id="contact">
+			<h2>Contact us.</h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<p>Contact us</p>
+
+				<address>
+					<strong>BlushMedia App</strong></address></br>
+				234,speke street</br>
+			Kampala,Ug</br>
+			Tel:256-774-333-222
+				</address>
+			</div>
+			<div class="col-lg-8">
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+						<label for="user-name" class="col-lg-2 control-label">Name
+		             </label>
+                 <div class="col-lg-10">
+                 	<input type="text" class="form-control" id="user-name" placeholder="Enter your full name">
+				</div>
+			</div>
+				<div class="form-group">
+						<label for="user-email" class="col-lg-2 control-label">Email
+		             </label>
+                 <div class="col-lg-10">
+                 	<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="your message"></textarea> 
+				</div>
+			</div>
+				<div class="form-group">
+						<label for="message" class="col-lg-2 control-label">Your message
+		             </label>
+                 <div class="col-lg-10">
+                 	<input type="text" class="form-control" id="user-name" placeholder="your message">
+				</div>
+			</div>
+			<div>
+				
+			<div class="form-group">
+			<div class="col-lg-10 col-lg-offset-2">
+				<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+	</section>	
+</div>
+<hr>
+<footer class="container text-center">
+	<ul class="list-inline">
+		<li><a href="http://www.twitter.com/dnatukunda">Twitter</a></li>
+        <li><a href="https://www.youtube.com">Youtube</a></li>
+		<li><a href="https://www.instagram.com">Instagram</a></li>
+		
+	</ul>
+    <p>&copy;Copyright @2018</p>
+</footer>
+
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
